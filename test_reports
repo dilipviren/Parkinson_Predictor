@@ -26,9 +26,27 @@ Parameters : (bootstrap=True, ccp_alpha=0.0, class_weight=None,
                        verbose=0, warm_start=False)
 
 -> More extensive and optimized parameter selection is recommended.
--> RandomSearchCV may provide better results with Random Forest but has several drawbacks built into its random nature of selection.
+-> RandomSearchCV used in rf_parkinsons_predictor_v2.py may improve performance
 
 # ANN : Artificial Neural Network (Sequential)
+
+ANN sequential gave an 89% accuracy with just one false negative 
+
+Paramters are as follows:
+
+model.add(Dense(50,activation='relu'))
+model.add(Dropout(0.1))
+model.add(Dense(25, activation='relu'))
+model.add(Dropout(0.1))
+model.add(Dense(10, activation='relu'))
+model.add(Dropout(0.1))
+model.add(Dense(units=1,activation='sigmoid'))
+
+model.compile(loss='binary_crossentropy', optimizer='adam')
+
+model.fit(x=xtrain,y=ytrain,epochs=400,verbose=0)
+
+Training epochs beyond 300 give no measurable change in precision
 
 
 

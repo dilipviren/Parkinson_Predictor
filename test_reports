@@ -28,7 +28,7 @@ Parameters : (bootstrap=True, ccp_alpha=0.0, class_weight=None,
 -> More extensive and optimized parameter selection is recommended.
 -> RandomSearchCV may provide better results with Random Forest but has several drawbacks built into its random nature of selection.
 
-# ANN : Artificial Neural Network
+# ANN : Artificial Neural Network (Sequential)
 
 
 

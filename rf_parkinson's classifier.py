@@ -143,7 +143,6 @@ import pickle
 pickle.dump(best_model,open('rf_model_v1','wb'))
 
 
-# In[ ]:
 
 
 

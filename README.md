@@ -46,4 +46,4 @@ DFA - Signal fractal scaling exponent
 
 spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation
 
-Models used: Logistic Regression, Support Vector Machines, Random Forest Classifier, Neural Network Applications
+Methods used: Logistic Regression, Support Vector Machines, Random Forest Classifier, Neural Network Applications

@@ -1,5 +1,7 @@
 # Explanation of the various biomarkers used:
 
+A multidimensional voice program (MDVP) refers to a software or system that captures and analyzes various parameters of human voice production. It is commonly used in fields such as speech pathology, linguistics, and voice research to study and assess voice quality, vocal disorders, and speech characteristics. By measuring and analyzing multiple parameters simultaneously, a multidimensional voice program provides a comprehensive evaluation of voice characteristics.
+
 Fundamental Frequency (F0): F0 represents the rate at which the vocal folds vibrate and is perceived as voice pitch. It is typically measured in Hertz (Hz) and provides information about the vocal fold tension and vocal pitch range.
 
 Harmonics-to-Noise Ratio (HNR): HNR measures the ratio of harmonics (related to the fundamental frequency) to noise in the voice signal. It provides insights into the quality and clarity of the voice by assessing the presence of unwanted noise components.

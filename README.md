@@ -24,6 +24,7 @@ Loss of facial expression.
 
 Training data source : UCI ML Parkinson's disease dataset
 Attributes/variables in the dataset:
+
 name - ASCII subject name and recording number
 
 MDVP:Fo(Hz) - Average vocal fundamental frequency
